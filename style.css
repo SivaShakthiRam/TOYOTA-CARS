@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+    
+    
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'poppins','sans-serif';
+}
+
+.bold{
+    font-size: 50px;
+    align-items: center;
+}
+
+li{
+    padding: 5px;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: 1s;
+}
+section{
+    
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+img{
+    width: 500px;
+}
+p{
+    font-size: 18px;
+}
+#about img{
+    width: 25rem;
+    height: 17rem;
+
+}
+/* navbar */
+
+#navbar{
+    position: sticky;
+    top:0;
+    background-color:rgb(238, 230, 230);
+    color: rgb(7, 7, 8);
+    z-index: 10;
+    padding-top: 25px;
+    padding-left: 20px;
+
+    
+}
+
+.card img{
+    height: 200px;
+}
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    ;
+}
+#home{
+    padding-top: 0;
+
+}
+fieldset{
+    border: 1px solid black;
+    padding-inline-start: 20px;
+}
+card{
+    height: 500px;
+}
